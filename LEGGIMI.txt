@@ -1,0 +1,19 @@
+TRASCRIVI STUDIO - PROTOTIPO PER IPAD 10ª GENERAZIONE
+
+Questi sono file sorgente di una web app sperimentale. Non sono un'app installabile con un tap da questo ZIP.
+
+COME USARLA:
+1. Pubblica tutti i file della cartella sul tuo sito HTTPS, in una sottocartella dedicata, senza cambiare nomi.
+2. Apri l'URL HTTPS in Safari su iPad.
+3. Premi "Prepara il modello" mentre sei online e attendi che finisca.
+4. Fai una prova con 1–2 minuti di audio e verifica la trascrizione.
+5. Riapri da Safari > Condividi > Aggiungi alla schermata Home.
+6. Metti il dispositivo in modalità aereo e controlla il funzionamento offline PRIMA di affidarti all'app.
+
+LIMITI:
+- Non è stato testato su un iPad fisico. Un audio da due ore può non funzionare per limiti di memoria e prestazioni.
+- Il primo avvio richiede rete. In seguito, i file di modello, runtime e app potrebbero essere recuperati dalle cache; Safari può eliminarli.
+- Il modello è Whisper Tiny multilingue: ha accuratezza limitata per termini specialistici.
+- Il codice usa componenti Hugging Face via CDN e recupera il modello da Hugging Face. La trascrizione viene calcolata in locale; i file audio non vengono inviati da questa app a un server.
+- Salva spesso il TXT. L'app non offre sincronizzazione o backup cloud.
+- Non sono necessari abbonamenti o account per il codice incluso. Serve uno spazio HTTPS per distribuire l'app.
